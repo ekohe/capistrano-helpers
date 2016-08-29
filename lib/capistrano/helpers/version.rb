@@ -1,5 +1,5 @@
 module Capistrano
-  module Revisions
+  module Helpers
     VERSION = "0.1"
   end
 end

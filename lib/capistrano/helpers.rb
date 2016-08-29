@@ -1,5 +1,5 @@
 module Capistrano
-  module helpers
+  module Helpers
     require "capistrano/helpers/version"
   end
 end

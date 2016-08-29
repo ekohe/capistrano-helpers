@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'capistrano/revisions/version'
+require 'capistrano/helpers/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "capistrano-revisions"
-  spec.version       = Capistrano::Revisions::VERSION
+  spec.name          = "capistrano-helpers"
+  spec.version       = Capistrano::Helpers::VERSION
   spec.authors       = ["maverick"]
   spec.email         = ["maverick@ekohe.com"]
-  spec.summary       = %q{Provide deploy:revisions task to Capistrano 3.}
-  spec.description   = %q{Provide deploy:revisions task to Capistrano 3 to append commit logs to a Redmine Wiki page and notify via email.}
-  spec.homepage      = "https://github.com/maverick9000/capistrano-revisions"
+  spec.summary       = %q{Provide helper tasks for Capistrano 3 }
+  spec.description   = %q{Provide helper tasks for Capistrano 3 }
+  spec.homepage      = "https://github.com/maverick9000/capistrano-helpers"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
