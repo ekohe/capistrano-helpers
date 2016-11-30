@@ -1,1 +1,3 @@
-require "capistrano/helpers"
+require 'capistrano'
+require 'capistrano-helpers/utils'
+require 'capistrano-helpers/tasks'
