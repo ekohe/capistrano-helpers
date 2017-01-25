@@ -8,6 +8,7 @@ This gem provides Capistrano 3 helper methods such as:
 - `cap db:dump` dump the current database on remote server
 - `cap db:restore_to_local` restore local database with latest dump from remote server
 - `cap db:pull` the combination of `db:dump` and `db:restore_to_local`
+- `cap live:check` check if everything is deployed
 
 for a comprehensive list, please refer to `cap --tasks`
 
