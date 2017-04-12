@@ -10,6 +10,7 @@ This gem provides Capistrano 3 helper methods such as:
 - `cap db:pull` the combination of `db:dump` and `db:restore_to_local`
 - `cap live:check` check if everything is deployed
 - `cap db:seed` seed database
+- `cap db:reset` reset database
 
 for a comprehensive list, please refer to `cap --tasks`
 
